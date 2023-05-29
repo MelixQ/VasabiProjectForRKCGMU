@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MainMenu/Modern Menu 1/Scenes/Demos/MainMenu.unity
+    guid: 829a86ba161cdd840842063447f41aab
+  - enabled: 1
+    path: Assets/CharacterSelection/Selection.unity
+    guid: ff6b7725e89370c45b17ec039b1355c4
+  - enabled: 1
+    path: Assets/Main/da.unity
+    guid: 4764c0f593d516f41ab105408a36cfa9
+  - enabled: 1
+    path: Assets/Scenes/WrongUniformScene.unity
+    guid: 9ad4e6db065e5f44d8634e0b95a8d088
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 024ac201a6b17994cb75cabdd93612e0, type: 2}
