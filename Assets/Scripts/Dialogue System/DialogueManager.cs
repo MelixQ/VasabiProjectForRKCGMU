@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,10 @@ using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
+    public delegate void EnterExitHandler();
+    public static event EnterExitHandler Entered;
+    public static event EnterExitHandler Exited;
+
     [field: SerializeField]
     public GameObject HintPopup { get; private set; }
     public bool DialogueIsPlaying { get; private set; }
@@ -75,6 +80,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EnterDialogueMode(TextAsset inkJSON)
     {
+        Entered?.Invoke();
         _currentStory = new Story(inkJSON.text);
         DialogueIsPlaying = true;
         _dialoguePanel.SetActive(true);
@@ -134,8 +140,9 @@ public class DialogueManager : MonoBehaviour
                     interrupted = true;
                     SetDialoguePanelActiveState(false);
                     _notePanel.SetActive(true);
-                    var noteTextField = _notePanel.GetComponentInChildren<TextMeshProUGUI>();
-                    noteTextField.text = _notesDictionary[tagValue].text;
+                    NoteHandler.GetInstance().SetupNoteContent(_notesDictionary[tagValue].text);
+                    /*var noteTextField = _notePanel.GetComponentInChildren<TextMeshProUGUI>();
+                    noteTextField.text = _notesDictionary[tagValue].text;*/
                     break;
                 case SpeakerTag:
                     _displayNameText.text = tagValue;
@@ -193,5 +200,6 @@ public class DialogueManager : MonoBehaviour
         DialogueIsPlaying = false;
         _dialoguePanel.SetActive(false);
         _dialogueText.text = "";
+        Exited?.Invoke();
     }
 }

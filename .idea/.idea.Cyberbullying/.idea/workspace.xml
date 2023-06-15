@@ -5,21 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e437d3-44f1-40f2-980d-5e008af0f3ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Vecteezy-License-Information.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Vecteezy-License-Information.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/credits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/credits.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/vecteezy_chain-link-icon-vector_6758316.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/vecteezy_chain-link-icon-vector_6758316.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/WrongUniformScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/WrongUniformScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/URLOpener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/URLOpener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Portraits/helper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Vecteezy-License-Information 1.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/vecteezy_exclamation-marks-icon-design-element-logo-element_5439438.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/vecteezy_exclamation-marks-icon-design-element-logo-element_5439438.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Characters/Animations/Jody.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Characters/Animations/Jody.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Characters/Jody.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Characters/Jody.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageOne.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageOne.ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageOne.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageTwo.ink" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageTwo.ink.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageTwo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/HelperDialogueStageTwo.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/PlatformController.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Scripts/HelperBehaviourHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Scripts/HelperBehaviourHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Scripts/HelperManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Scripts/HelperManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Timeline.playable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Timeline.playable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CharacterSelection/note.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialogue/Animations/Portraits/helper.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialogue/Animations/Portraits/helper.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/PlayerDialogue.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/PlayerDialogue.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/WithTwoChoices.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/WithTwoChoices.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Ch27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Ch27.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Martha.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Martha.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CustomDontDestroyOnLoad.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CustomDontDestroyOnLoad.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyberbullying/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyberbullying/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterSelection/Characters/Animations/Remy.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Characters/Animations/Remy.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CharacterSelection/Scripts/CharacterSelection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Scripts/CharacterSelection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Modern Menu 1/Scenes/Demos/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Modern Menu 1/Scenes/Demos/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CharacterSelection/Selection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterSelection/Selection.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Animations/Portraits/PortraitAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/Animations/Portraits/PortraitAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Scene 3. Phone Call.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/Scene 3. Phone Call.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/DemoWithNoChoices.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/DemoWithNoChoices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/WithFourChoices.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/WithFourChoices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/WithMoreThanSupportedChoices.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/TestDialogues/WithMoreThanSupportedChoices.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main/da.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main/da.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimatorParameterIdList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimatorParameterIdList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cyberbullying.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Cyberbullying.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pinwheel.Polaris.Runtime.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pinwheel.Polaris.Runtime.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polyperfect.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Polyperfect.Common.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/InkSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InkSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,9 +69,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CharacterSelection/Scripts/HelperBehaviourHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CharacterSelection/Scripts/HelperManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimatorParameterIdList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue System/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FaceObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,7 +85,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/URLOpener.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectId" id="2OI1rKXWhP56fIp0YAJzW1P9gtO" />
   <component name="ProjectViewState">
@@ -50,6 +94,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -71,7 +116,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Debug Game/Third\Cyberbullying.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Debug Game/4\Cyberbullying.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\MaximK\Desktop\Debug Game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -136,6 +181,11 @@
       <workItem from="1685259947881" duration="2128000" />
       <workItem from="1685263283081" duration="402000" />
       <workItem from="1685347639836" duration="1227000" />
+      <workItem from="1685374208268" duration="245000" />
+      <workItem from="1685374711112" duration="221000" />
+      <workItem from="1685951678312" duration="4231000" />
+      <workItem from="1686653690483" duration="4881000" />
+      <workItem from="1686664671867" duration="7779000" />
     </task>
     <servers />
   </component>

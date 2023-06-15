@@ -4,7 +4,18 @@ using UnityEngine.SceneManagement;
 public class CharacterSelection : MonoBehaviour
 {
 	public GameObject[] characters;
-	public int selectedCharacter = 0;
+	private int selectedCharacter;
+
+	[Space] [Header("Correct character index in hierarchy")] [SerializeField]
+	private int _correctCharacter;
+	[Header("Build index of main game scene")] [SerializeField]
+	private int _correctSceneName;
+	[Header("Build index of incorrect scene")] [SerializeField] 
+	private int _incorrectSceneName;
+	[Header("Note settings")] [SerializeField] 
+	private TextAsset _noteContent;
+	[SerializeField] private GameObject _noteCanvas;
+	[SerializeField] private GameObject _selectCanvas;
 
 	public void NextCharacter()
 	{
@@ -27,9 +38,19 @@ public class CharacterSelection : MonoBehaviour
 	public void StartGame()
 	{
 		PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
-		if (selectedCharacter == 1)
-			SceneManager.LoadScene(2, LoadSceneMode.Single);
+		if (selectedCharacter == _correctCharacter)
+			SceneManager.LoadScene(_correctSceneName, LoadSceneMode.Single);
 		else
-			SceneManager.LoadScene(3, LoadSceneMode.Single);
+		{
+			_noteCanvas.SetActive(true);
+			_selectCanvas.SetActive(false);
+			NoteHandler.GetInstance().SetupNoteContent(_noteContent.text);
+		}
+	}
+
+	public void EnableSelection()
+	{
+		_selectCanvas.SetActive(true);
+		_noteCanvas.SetActive(false);
 	}
 }

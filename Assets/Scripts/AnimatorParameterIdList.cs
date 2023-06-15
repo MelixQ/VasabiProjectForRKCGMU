@@ -8,4 +8,5 @@ public class AnimatorParameterIdList : MonoBehaviour
     public static readonly int IsWalking = Animator.StringToHash("IsWalking");
     public static readonly int Default = Animator.StringToHash("default");
     public static readonly int Big = Animator.StringToHash("big");
+    public static readonly int Pointed = Animator.StringToHash("Pointed");
 }
